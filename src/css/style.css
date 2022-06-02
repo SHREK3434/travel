@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:'Gelasio', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.col-3 {
+
+
+}
+
+.col-2{
+    width: 50%;
+    padding: 15px 15px;
+}
+
+
+
+header{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+
+.header-logo{
+    display: flex;
+
+}
+
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header-title{
+    font-size: 24px;
+    line-height: 36px;
+     color: white ;
+    margin-right: 50px;
+
+
+}
+
+.header-link{
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-right: 50px;
+
+}
+
+
+.header-button{
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    background: #C9453B;
+    padding: 16px 8px;
+    border: 1px solid #C9453B;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.world-content{
+
+}
+
+.world{
+    background: url("../images/world/Rectangle 31.png") top left/100% 100% no-repeat  ;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.world-title{
+    font-weight: 700;
+    Font-size: 65px;
+    Line-height: 78px;
+    color: white;
+
+}
+
+.world-text{
+    font-weight: 400;
+    Font-size: 18px;
+    Line-height: 28px;
+    color:#FFFFFF;
+
+}
+
+.world-button{
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    background: #C9453B;
+    padding: 12px 8px;
+    border: 1px solid #C9453B;
+    border-radius: 6px;
+    cursor: pointer;}
+
+
+
+
+
+.travel-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+}
+.travel-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.travel-images{
+    margin-top: 50px;
+
+}
+
+.travel-content{
+
+ padding: 15px 27px;
+}
+
+
+.travel-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+}
+.travel-item img {
+    display: inline-block;
+    width: 348px;
+
+
+}
+
+.travel-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.travel_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    padding-top: 10px ;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+.tours-title{
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.tours-tex{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.tours-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+
+.tours-subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.div {
+    display: flex;
+
+}
+
+.colonka-4 {
+
+
+}
+
+.tours-bb{
+    padding-right: 40px;
+
+}
+
+.tours-star{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+    padding-right: 30px;
+}
+ 
+.tours-item img {
+    display: inline-block;
+
+}
+
+.bbbb{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.tours-nigger{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.news-title{
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+.news-mountain {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: left;
+    color: #000000;
+    padding-top: 20px
+}
+
+.news-BILLY{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.news-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 20px;
+
+}
+
+.news-tet{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.news-item img {
+    padding-right: 30px;
+
+}
+.content-1 {
+
+}
+.row-1 {
+    padding: 0 0 30px;
+}
+
+.news-BILL{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-top: 20px;}
+
+.news-item-2{
+     position: relative;
+}
+
+.news-play{
+    width: 55px;
+    height: 55px;
+    background-color: #0d95e8;
+    border-radius: 20%;
+    position: absolute;
+    right: 270px;
+    top: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-star{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    left: 100px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.news-stars{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    left: 100px;
+    color: #000000;
+
+}
+
+
+.footer-item{
+
+}
+
+.footer-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.footer-tet{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.footer-list{
+
+}
+
+.footer-li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    list-style: none;
+    margin-top: 8px;
+    padding-left: 107px;
+}
+
+.footer-SUUUUUUUUUUUIIIII{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-left: 80px;
+}
+
+.contact-block {
+    display: flex;
+
+}
+
+.contact-block label input{
+    /*border: 1px solid #000000;*/
+    /*box-shadow:10px 10px rgba(0, 0, 0, 0.15);*/
+    /*border-radius: 5px;*/
+    /*font-weight: 400;*/
+    /*font-size: 16px;*/
+    /*line-height: 190%;*/
+
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0 0 80px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+
+}
+
+.footer-button{
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    background: #C9453B;
+    border: 1px solid #C9453B;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin-left: 30px;
+   }
+
+
+
+
